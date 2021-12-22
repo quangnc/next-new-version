@@ -25,24 +25,3 @@ body {
 button:focus {
   @apply outline-none;
 }
-
-/* Remove auto-fill styling */
-input:-webkit-autofill {
-  -webkit-background-clip: text;
-}
-
-.MuiPickersDay-root.Mui-selected {
-  @apply text-white bg-primary focus:bg-primary !important
-}
-
-.PrivatePickersYear-yearButton.Mui-selected {
-  @apply text-white bg-primary focus:bg-primary !important
-}
-
-.MuiPaper-root.MuiPaper-elevation8 {
-  @apply shadow border border-solid border-blue-400 rounded !important
-}
-
-.MuiAccordion-root:before {
-  display: none !important
-}
